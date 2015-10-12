@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'MyriadProCondRegular';
+    src: url('../fonts/myriadpro-cond-webfont.eot');
+    src: url('../fonts/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-cond-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-cond-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/myriadpr-webfont.eot');
+    src: url('../fonts/myriadpr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpr-webfont.woff') format('woff'),
+         url('../fonts/myriadpr-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color:#134b7b;
+}
+a:hover{
+	color:#2e76b0;
+}
+body{
+	height:100%;
+	margin:0px;
+	font-family:"MyriadProRegular";
+	color:#596070;
+	font-size:14px;
+}
+div{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position:relative;
+}
+html{
+	height:100%;
+}
+h1{
+	color:#134b7b;
+	font-weight:normal;
+	font-size:24px;
+	padding:0;
+	margin:8px 0 18px 0;
+}
+h2{
+	color:#2e76b0;
+	font-weight:normal;
+	font-size:20px;
+	padding:0;
+	margin:8px 0 10px 0;
+}
+p{
+	margin:0;
+}
+table{
+	border-collapse:collapse;
+}
+td{
+	padding:0px;
+	vertical-align:top;
+}
+.blue{
+	color:#134b7b;
+}
+
+input[type=text], input[type=password]{
+	height:25px;
+	border:1px solid #2e76b0;
+	width:178px;
+	padding:3px 5px 3px 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family:"MyriadProCondRegular";
+	font-size:16px;
+	color:#134b7b;
+}
+select{
+	border:1px solid #2e76b0;
+	background:transparent;
+	width:200px;
+	height:24px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-size:16px;
+	font-family:"MyriadProCondRegular";
+	padding:1px 0 1px 0;
+	margin:0;
+	color:#134b7b;
+}
+.select{
+	border:1px solid #2e76b0;
+	width:178px;
+	height:25px;
+	overflow: hidden;
+	display:block;
+	margin:0 5px 0 0;
+	float:left;
+	background:url('../img/select.png') no-repeat 154px 6px;
+}
+textarea{
+	height:100px;
+	border:1px solid #2e76b0;
+	width:288px;
+	padding:5px 5px 5px 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family:"MyriadProCondRegular";
+	font-size:16px;
+}
+.inputl{
+	width:30px;
+}
+

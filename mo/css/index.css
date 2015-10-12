@@ -1,0 +1,336 @@
+.head{
+	width:1000px;
+	height:80px;
+	background-color:#2f75b0;
+}
+.head .ico{
+	width:240px;
+	height:52px;
+	margin:14px 0 0 750px;
+	position:absolute;
+}
+.head .ico a{
+	width:52px;
+	height:52px;
+	margin:0px 8px 0 0px;
+	background-color:#134b7b;
+	background-repeat:no-repeat;
+	background-position:center;
+	float:left;
+	display:block;
+}
+.head .ico a:hover{
+	background-color:#2e76b0;
+}
+.head .ico .vk{
+	background-image:url(../img/vk.png);
+}
+.head .ico .fb{
+	background-image:url(../img/fb.png);
+}
+.head .ico .tw{
+	background-image:url(../img/tw.png);
+}
+.head .ico .lj{
+	background-image:url(../img/lj.png);
+}
+.head .menu{
+	width:570px;
+	margin:32px 0 0 160px;
+	position:absolute;
+	text-align:right;
+}
+.head .menu a{
+	padding:0 0 0 16px;
+	color:#ffffff;
+	text-decoration:none;
+	font-family:"MyriadProCondRegular";
+	font-size:18px;
+	text-transform:uppercase;
+}
+.head a:hover{
+	color:#bbbbbb;
+}
+.head .region{
+	margin:35px 0 0 48px;
+	z-index:100;
+	position:absolute;
+	font-family:"MyriadProCondRegular";
+	font-size:14px;
+	text-decoration:underline;
+}
+.head .logo{
+	width:300px;
+	height:75px;
+	margin:0px 0 0 10px;
+	position:absolute;
+	color:#ffffff;
+	font-family:"MyriadProCondRegular";
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	font-size:18px;
+	text-align:left;
+	padding:52px 0 0 5px;
+	text-decoration:none;
+}
+.body{
+	height:100%;
+	text-align:left;
+
+}
+.body .menu{
+	float:left;
+	width:160px;
+	height:100%;
+	background-color:#f6f6f6;
+}
+.body .menu a{
+	font-family:"MyriadProCondRegular";
+	color:#ffffff;
+	text-transform:uppercase;
+	width:125px;
+	height:125px;
+	background-color:#2f75b0;
+	background-repeat:no-repeat;
+	background-position:center;
+	display:block;
+	margin:18px 0 0 18px;
+	text-decoration:none;
+	font-size:14px;
+	padding:104px 0 0 6px;
+	text-align:left;
+}
+.body .menu a:hover{
+	background-color:#134b7b;
+}
+.body .menu .query{
+	background-image:url(../img/query.png);
+}
+.body .menu .map{
+	background-image:url(../img/map.png);
+}
+.body .menu .doc{
+	background-image:url(../img/doc.png);
+}
+.body .menu .gp{
+	background-image:url(../files/gp.png);
+	width:125px;
+	height:125px;
+}
+.body .menu .help{
+	background:none;
+	color:#134b7b;
+	width:125px;
+	height:25px;
+	padding:0px 0 0 6px;
+}
+.body .menu .help:hover{
+	background:none;
+	color:#134b7b;
+}
+.body .data{
+	float:left;
+	width:840px;
+	padding:18px 26px 18px 26px;
+	min-height:500px;
+}
+.foot{
+	height:70px;
+	background-color:#2f75b0;
+}
+.foot{
+	font-family:"MyriadProCondRegular";
+	color:#ffffff;
+	font-size:14px;
+}
+.foot .banner{
+	width:80px;
+	position:absolute;
+	margin:-60px 0 0 20px;
+	text-align:center;
+}
+.foot .copy{
+	position:absolute;
+	margin:10px 0 0 20px;
+	width:200px;
+	text-align:left;
+}
+.foot .design{
+	width:200px;
+	position:absolute;
+	margin:10px 0 0 780px;
+	text-align:right;
+}
+.foot a{
+	color:#ffffff;
+	text-decoration:none;
+}
+.foot a:hover{
+	color:#134b7b;
+}
+
+.w1000{
+	position:relative;
+	width:1000px;
+	height:100%;
+}
+.w100{
+	width:100%;
+	height:100%;
+}
+
+
+
+
+.checkbox{
+	width:30px;
+}
+
+
+.gall{
+}
+.gall .elem{
+	float:left;
+	width:247px;
+	height:160px;
+	text-align:center;
+	text-decoration:none;
+}
+.gall .elem .img{
+	width:190px;
+	height:140px;
+	background-repeat:no-repeat;
+	background-position:center;
+	border:1px solid grey;
+}
+.gall .elem .frame{
+	width:116px;
+	height:88px;
+	background:url(../img/framem.png) no-repeat center;
+}
+.gall .elem .desc{
+	width:200px;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:16px;
+	margin:-137px 0 0 23px;
+	position:absolute;
+	background:url(../img/cat_bg.png) repeat-y;
+	text-align:left;
+	padding:4px 16px 0 16px;
+}
+.gall .elem .bottom{
+	width:200px;
+	height:6px;
+	margin:0px 0 0 -16px;
+	position:absolute;
+	background:url(../img/cat_foot.png) no-repeat bottom;
+}
+
+
+.form_row td{
+	height:26px;
+}
+.form_city td{
+	height:26px;
+}
+.form_city td div{
+	display:none;
+}
+.form_row .txt, .form_city .txt{
+	padding:2px;
+	min-width:160px;
+}
+.form_row .text, .form_city .text{
+	padding:2px;
+}
+.blblue{
+	border-left:1px solid #2c9eff;
+	margin:0 20px 0 20px;
+	padding:0 20px 0 20px;
+	width:210px;
+}
+table td .tmiddle{
+	
+}
+.buttonm{
+	width:106px;
+	height:30px;
+	background:url(../img/buttonm.png) no-repeat;
+	text-align:center;
+}
+.button{
+	font-family:"MyriadProCondRegular";
+	width:180px;
+	height:50px;
+	text-align:center;
+	background-color:#2f75b0;
+	margin:4px;
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:24px;
+	padding:12px 0 0 0;
+	color:#ffffff;
+}
+.buttonm a, .button a{
+	display:block;
+	padding:3px 0 0 0;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:16px;
+}
+.button:hover{
+	color:#ffffff;
+	background-color:#134b7b;
+}
+.buttonm a:hover{
+	color:#333333;
+}
+.w110{
+	width:110px;
+}
+.w70{
+	width:70px;
+}
+.line{
+	border-bottom:1px dotted #b4b5ba;
+	height:10px;
+	margin-bottom:10px;
+	clear:both;
+}
+.work-status-filters {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.work-status-filters input {
+    vertical-align: middle;
+}
+
+.work-status-filters label {
+    vertical-align: middle;
+}
+
+.work-status-filters label[for="sent"] {
+    color: #3D87C4;
+}
+
+.work-status-filters label[for="rejected"] {
+    color: #E03632;
+}
+
+.work-status-filters label[for="fixed"] {
+    color: #24A636;
+}
+
+.work-status-filters label[for="partfixed"] {
+    color: #667137;
+}
+
+.work-status-filters label[for="answered"] {
+    color: #D1C427;
+}
