@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp>
+	<information>
+		<title><![CDATA[Airport - Simulation]]></title>
+		<vendor>AnyLogic North America</vendor>
+		<homepage href="http://anylogic.com/"/>
+		<description><![CDATA[Airport - Simulation]]></description>
+		<description kind="short"><![CDATA[This is a simulation of the international flights departure of Koltsovo airport, Yekaterinburg, Russia. The simulation duration is one day and night. Passengers arrive, pass security controls, customs control, check in, passport control and gate control. There are four types of transport passengers arrive by: bus, fixed route taxi, personal car (taxi) and coach. Flights schedule is read from Excel file. Model helps analyze dependence between airport services parameters on the one hand and registation time and personnel utilization on the other hand.]]></description>
+		<offline-allowed/>
+	</information>
+
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.6+" max-heap-size="512m"/>
+		<property name="sun.java2d.noddraw" value="true"/>
+		<jar href="model.jar" main="true"/>
+		<jar href="com.xj.anylogic.engine.jar"/>
+		<jar href="com.xj.anylogic.engine.nl.jar"/>
+		<jar href="com.xj.anylogic.engine.al3d.jar"/>
+		<jar href="com.xj.anylogic.engine.resources.jar"/>
+		<jar href="lib/aviatrix3d-all_2.0.0.jar"/>
+		<jar href="lib/j3d-org-elumens.jar"/>
+		<jar href="lib/j3d-org-geom-core.jar"/>
+		<jar href="lib/j3d-org-geom-hanim.jar"/>
+		<jar href="lib/j3d-org-geom-particle.jar"/>
+		<jar href="lib/j3d-org-geom-terrain.jar"/>
+		<jar href="lib/j3d-org-loader-3ds.jar"/>
+		<jar href="lib/j3d-org-loader-core.jar"/>
+		<jar href="lib/j3d-org-loader-dem.jar"/>
+		<jar href="lib/j3d-org-loader-stl.jar"/>
+		<jar href="lib/j3d-org-loader-vterrain.jar"/>
+		<jar href="lib/j3d-org-navigation.jar"/>
+		<jar href="lib/j3d-org-texture.jar"/>
+		<jar href="lib/j3d-org-util.jar"/>
+		<jar href="lib/javax.vecmath_1.5.0.jar"/>
+		<jar href="lib/uri.jar"/>
+		<jar href="lib/vlc_uri.jar"/>
+		<jar href="lib/xj3d-common_2.0.0.jar"/>
+		<jar href="lib/xj3d-config_2.0.0.jar"/>
+		<jar href="lib/xj3d-core_2.0.0.jar"/>
+		<jar href="lib/xj3d-device_2.0.0.jar"/>
+		<jar href="lib/xj3d-eai_2.0.0.jar"/>
+		<jar href="lib/xj3d-ecmascript_2.0.0.jar"/>
+		<jar href="lib/xj3d-external-sai-concrete_2.0.0.jar"/>
+		<jar href="lib/xj3d-external-sai_2.0.0.jar"/>
+		<jar href="lib/xj3d-images_2.0.0.jar"/>
+		<jar href="lib/xj3d-java-sai-concrete_2.0.0.jar"/>
+		<jar href="lib/xj3d-java-sai_2.0.0.jar"/>
+		<jar href="lib/xj3d-jaxp_2.0.0.jar"/>
+		<jar href="lib/xj3d-jsai_2.0.0.jar"/>
+		<jar href="lib/xj3d-net_2.0.0.jar"/>
+		<jar href="lib/xj3d-norender_2.0.0.jar"/>
+		<jar href="lib/xj3d-ogl_2.0.0.jar"/>
+		<jar href="lib/xj3d-parser_2.0.0.jar"/>
+		<jar href="lib/xj3d-render_2.0.0.jar"/>
+		<jar href="lib/xj3d-runtime_2.0.0.jar"/>
+		<jar href="lib/xj3d-sai-concrete_2.0.0.jar"/>
+		<jar href="lib/xj3d-sai_2.0.0.jar"/>
+		<jar href="lib/xj3d-sav_2.0.0.jar"/>
+		<jar href="lib/xj3d-script-base_2.0.0.jar"/>
+		<jar href="lib/xj3d-xml-util_2.0.0.jar"/>
+		<jar href="lib/xj3d-xml_2.0.0.jar"/>
+		<jar href="model_3d_files.jar"/>
+		<jar href="lib/ProcessModelingLibrary.jar"/>
+		<jar href="lib/EnterpriseLibrary.jar"/>
+		<jar href="lib/PedestrianLibraryOld.jar"/>
+		<jar href="lib/PedestrianLibrary.jar"/>
+		<extension name="jogl-all-awt" href="lib/jogl/jogl.jnlp"/>
+	</resources>
+
+	<applet-desc name="Airport - Simulation"
+		main-class="airport.Simulation$Applet"
+		width="1052"
+		height="708">
+	</applet-desc>
+</jnlp>

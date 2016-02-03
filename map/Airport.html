@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<title>Airport - Simulation</title>
+	<style type="text/css">
+	body, html, object, embed, applet { margin:0; padding:0; border:0; }
+	</style></head>
+	<body onLoad="resize();">
+	<p style="color:red; font-weight:bold;">If the applet doesn't start successfully, please run the 'model.jnlp' file. Applets with 3D animation may fail to run in the latest versions of Java. In that case please consider placing your applet on a web server or using an older version of JRE.</p>
+		<script language="javascript">
+<!--
+			var winWidth;
+			var winHeight;
+			function resize()
+			{
+				winWidth = Math.min( 1052, screen.availWidth );
+				winHeight = Math.min( 708, screen.availHeight );
+				window.resizeTo( winWidth, winHeight );	
+				winWidth = 2 * winWidth - document.body.clientWidth;
+				winHeight = 2 * winHeight - document.body.clientHeight;
+				window.resizeTo( winWidth, winHeight );	
+			}
+-->
+		</script>
+<!-- For compatibility with some browsers no supporting JNLP (like Safari under Windows OS), this applet references 3D Java OpenGL scripts and jars hosted on the www.runthemodel.com (due to technical reasons: implementation of legacy applet-launcher requires all URLs to be absolute). Other browsers will use local jars and scripts only. -->
+		<object
+			classid="clsid:CAFEEFAC-0016-0000-0000-ABCDEFFEDCBA"
+		  	width="1052"
+		  	height="708"
+			codebase="http://java.sun.com/update/1.6.0/jinstall-6-windows-i586.cab#Version=6,0,0,0">
+			<param name="code" value="org.jdesktop.applet.util.JNLPAppletLauncher" />
+			<param name="archive" value="lib/applet-launcher/applet-launcher.jar,lib/jogl/jogl.jar,lib/gluegen/gluegen-rt.jar,com.xj.anylogic.engine.jar,com.xj.anylogic.engine.nl.jar,com.xj.anylogic.engine.al3d.jar,com.xj.anylogic.engine.resources.jar,lib/aviatrix3d-all_2.0.0.jar,lib/j3d-org-elumens.jar,lib/j3d-org-geom-core.jar,lib/j3d-org-geom-hanim.jar,lib/j3d-org-geom-particle.jar,lib/j3d-org-geom-terrain.jar,lib/j3d-org-loader-3ds.jar,lib/j3d-org-loader-core.jar,lib/j3d-org-loader-dem.jar,lib/j3d-org-loader-stl.jar,lib/j3d-org-loader-vterrain.jar,lib/j3d-org-navigation.jar,lib/j3d-org-texture.jar,lib/j3d-org-util.jar,lib/javax.vecmath_1.5.0.jar,lib/uri.jar,lib/vlc_uri.jar,lib/xj3d-common_2.0.0.jar,lib/xj3d-config_2.0.0.jar,lib/xj3d-core_2.0.0.jar,lib/xj3d-device_2.0.0.jar,lib/xj3d-eai_2.0.0.jar,lib/xj3d-ecmascript_2.0.0.jar,lib/xj3d-external-sai-concrete_2.0.0.jar,lib/xj3d-external-sai_2.0.0.jar,lib/xj3d-images_2.0.0.jar,lib/xj3d-java-sai-concrete_2.0.0.jar,lib/xj3d-java-sai_2.0.0.jar,lib/xj3d-jaxp_2.0.0.jar,lib/xj3d-jsai_2.0.0.jar,lib/xj3d-net_2.0.0.jar,lib/xj3d-norender_2.0.0.jar,lib/xj3d-ogl_2.0.0.jar,lib/xj3d-parser_2.0.0.jar,lib/xj3d-render_2.0.0.jar,lib/xj3d-runtime_2.0.0.jar,lib/xj3d-sai-concrete_2.0.0.jar,lib/xj3d-sai_2.0.0.jar,lib/xj3d-sav_2.0.0.jar,lib/xj3d-script-base_2.0.0.jar,lib/xj3d-xml-util_2.0.0.jar,lib/xj3d-xml_2.0.0.jar,model_3d_files.jar,model.jar,lib/ProcessModelingLibrary.jar,lib/EnterpriseLibrary.jar,lib/PedestrianLibraryOld.jar,lib/PedestrianLibrary.jar" />
+			<param name="codebase_lookup" value="false">
+			<param name="subapplet.classname" value="airport.Simulation$Applet">
+			<param name="subapplet.displayname" value="Airport - Simulation">
+			<param name="noddraw.check" value="true">
+			<param name="progressbar" value="true">
+			<param name="jnlpNumExtensions" value="1">
+			<param name="jnlpExtension1" value="http://www.runthemodel.com/javanetcache/media/jogl/builds/archive/jsr-231-1.1.1/webstart/jogl.jnlp">
+			<param name="java_arguments" value="-Dsun.java2d.noddraw=true">
+			<param name="jnlp_href" value="model.jnlp">
+			<comment>
+				<embed
+					code="org.jdesktop.applet.util.JNLPAppletLauncher"
+					archive="lib/applet-launcher/applet-launcher.jar,lib/jogl/jogl.jar,lib/gluegen/gluegen-rt.jar,com.xj.anylogic.engine.jar,com.xj.anylogic.engine.nl.jar,com.xj.anylogic.engine.al3d.jar,com.xj.anylogic.engine.resources.jar,lib/aviatrix3d-all_2.0.0.jar,lib/j3d-org-elumens.jar,lib/j3d-org-geom-core.jar,lib/j3d-org-geom-hanim.jar,lib/j3d-org-geom-particle.jar,lib/j3d-org-geom-terrain.jar,lib/j3d-org-loader-3ds.jar,lib/j3d-org-loader-core.jar,lib/j3d-org-loader-dem.jar,lib/j3d-org-loader-stl.jar,lib/j3d-org-loader-vterrain.jar,lib/j3d-org-navigation.jar,lib/j3d-org-texture.jar,lib/j3d-org-util.jar,lib/javax.vecmath_1.5.0.jar,lib/uri.jar,lib/vlc_uri.jar,lib/xj3d-common_2.0.0.jar,lib/xj3d-config_2.0.0.jar,lib/xj3d-core_2.0.0.jar,lib/xj3d-device_2.0.0.jar,lib/xj3d-eai_2.0.0.jar,lib/xj3d-ecmascript_2.0.0.jar,lib/xj3d-external-sai-concrete_2.0.0.jar,lib/xj3d-external-sai_2.0.0.jar,lib/xj3d-images_2.0.0.jar,lib/xj3d-java-sai-concrete_2.0.0.jar,lib/xj3d-java-sai_2.0.0.jar,lib/xj3d-jaxp_2.0.0.jar,lib/xj3d-jsai_2.0.0.jar,lib/xj3d-net_2.0.0.jar,lib/xj3d-norender_2.0.0.jar,lib/xj3d-ogl_2.0.0.jar,lib/xj3d-parser_2.0.0.jar,lib/xj3d-render_2.0.0.jar,lib/xj3d-runtime_2.0.0.jar,lib/xj3d-sai-concrete_2.0.0.jar,lib/xj3d-sai_2.0.0.jar,lib/xj3d-sav_2.0.0.jar,lib/xj3d-script-base_2.0.0.jar,lib/xj3d-xml-util_2.0.0.jar,lib/xj3d-xml_2.0.0.jar,model_3d_files.jar,model.jar,lib/ProcessModelingLibrary.jar,lib/EnterpriseLibrary.jar,lib/PedestrianLibraryOld.jar,lib/PedestrianLibrary.jar"
+		  			width="1052"
+		  			height="708"
+					type="application/x-java-applet;version=1.6"
+					codebase_lookup="false"
+					subapplet.classname="airport.Simulation$Applet"
+					subapplet.displayname="Airport - Simulation"
+					noddraw.check="true"
+					progressbar="true"
+					jnlpNumExtensions="1"
+					jnlpExtension1="http://www.runthemodel.com/javanetcache/media/jogl/builds/archive/jsr-231-1.1.1/webstart/jogl.jnlp"
+					java_arguments="-Dsun.java2d.noddraw=true"
+					jnlp_href="model.jnlp"
+					pluginsspage="http://java.sun.com/javase/downloads/">
+					<noembed>
+						<applet
+						 	code="org.jdesktop.applet.util.JNLPAppletLauncher"
+						 	archive="lib/applet-launcher/applet-launcher.jar,lib/jogl/jogl.jar,lib/gluegen/gluegen-rt.jar,com.xj.anylogic.engine.jar,com.xj.anylogic.engine.nl.jar,com.xj.anylogic.engine.al3d.jar,com.xj.anylogic.engine.resources.jar,lib/aviatrix3d-all_2.0.0.jar,lib/j3d-org-elumens.jar,lib/j3d-org-geom-core.jar,lib/j3d-org-geom-hanim.jar,lib/j3d-org-geom-particle.jar,lib/j3d-org-geom-terrain.jar,lib/j3d-org-loader-3ds.jar,lib/j3d-org-loader-core.jar,lib/j3d-org-loader-dem.jar,lib/j3d-org-loader-stl.jar,lib/j3d-org-loader-vterrain.jar,lib/j3d-org-navigation.jar,lib/j3d-org-texture.jar,lib/j3d-org-util.jar,lib/javax.vecmath_1.5.0.jar,lib/uri.jar,lib/vlc_uri.jar,lib/xj3d-common_2.0.0.jar,lib/xj3d-config_2.0.0.jar,lib/xj3d-core_2.0.0.jar,lib/xj3d-device_2.0.0.jar,lib/xj3d-eai_2.0.0.jar,lib/xj3d-ecmascript_2.0.0.jar,lib/xj3d-external-sai-concrete_2.0.0.jar,lib/xj3d-external-sai_2.0.0.jar,lib/xj3d-images_2.0.0.jar,lib/xj3d-java-sai-concrete_2.0.0.jar,lib/xj3d-java-sai_2.0.0.jar,lib/xj3d-jaxp_2.0.0.jar,lib/xj3d-jsai_2.0.0.jar,lib/xj3d-net_2.0.0.jar,lib/xj3d-norender_2.0.0.jar,lib/xj3d-ogl_2.0.0.jar,lib/xj3d-parser_2.0.0.jar,lib/xj3d-render_2.0.0.jar,lib/xj3d-runtime_2.0.0.jar,lib/xj3d-sai-concrete_2.0.0.jar,lib/xj3d-sai_2.0.0.jar,lib/xj3d-sav_2.0.0.jar,lib/xj3d-script-base_2.0.0.jar,lib/xj3d-xml-util_2.0.0.jar,lib/xj3d-xml_2.0.0.jar,model_3d_files.jar,model.jar,lib/ProcessModelingLibrary.jar,lib/EnterpriseLibrary.jar,lib/PedestrianLibraryOld.jar,lib/PedestrianLibrary.jar"
+						  	width="1052"
+				  			height="708">
+							<param name="codebase_lookup" value="false">
+							<param name="subapplet.classname" value="airport.Simulation$Applet">
+							<param name="subapplet.displayname" value="Airport - Simulation">
+							<param name="noddraw.check" value="true">
+							<param name="progressbar" value="true">
+							<param name="jnlpNumExtensions" value="1">
+							<param name="jnlpExtension1" value="http://www.runthemodel.com/javanetcache/media/jogl/builds/archive/jsr-231-1.1.1/webstart/jogl.jnlp">
+							<param name="java_arguments" value="-Dsun.java2d.noddraw=true">
+							<param name="jnlp_href" value="model.jnlp">
+						</applet>
+					</noembed>
+				</embed>
+			</comment>
+		</object>
+	</body>
+</html>
