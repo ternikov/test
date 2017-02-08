@@ -493,7 +493,7 @@
 	
 <macro name="type-sorting">
 <choose>
-<if type="statute" match="any">
+<if type="webpage" match="any">
 <text value="1"/>
 </if>
 <else>
