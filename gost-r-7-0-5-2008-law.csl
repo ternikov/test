@@ -187,8 +187,14 @@
             <group prefix="// " delimiter=". ">
               <text variable="container-title" form="short"/>
               <text macro="year-date"/>
+              <if variable="language">  
               <text variable="volume" prefix="Т. "/>
               <text variable="issue" prefix="№ "/>
+              </if>
+              <else>
+               <text variable="volume" prefix="Vol. "/>
+              <text variable="issue" prefix="No. "/>
+              </else>
             </group>
             <text variable="page" prefix="С. "/>
           </group>
