@@ -91,9 +91,10 @@
   </citation>
   <locale xml:lang="en">
     <terms>
-      <term name="et-al">и др.</term>
-      <term name="editor" form="verb">под ред.</term>
+      <term name="et-al">et al.</term>
+      <term name="editor" form="verb">Ed.</term>
       <term name="accessed">дата обращения</term>
+      <term name="page" form="short">pp.</term>
     </terms>
   </locale>
   <locale xml:lang="ru">
