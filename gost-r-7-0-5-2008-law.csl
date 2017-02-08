@@ -94,7 +94,6 @@
       <term name="et-al">et al.</term>
       <term name="editor" form="verb">Ed.</term>
       <term name="accessed">дата обращения</term>
-      <text variable="page" prefix="P.&#160;"/>
     </terms>
   </locale>
   <locale xml:lang="ru">
