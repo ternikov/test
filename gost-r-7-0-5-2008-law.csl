@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="ru-RU">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0"> <!-- default-locale="ru-RU"> -->
   <info>
     <title>ГОСТ 7.0.5-2008 (С законами)</title>
     <id>https://raw.githubusercontent.com/ternikov/test/gh-pages/gost-r-7-0-5-2008-law.csl</id>
@@ -169,8 +169,14 @@
             <group prefix="// " delimiter=". ">
               <text variable="container-title" form="short"/>
               <text macro="year-date"/>
+              <if variable="language">  
               <text variable="volume" prefix="Т. "/>
               <text variable="issue" prefix="№ "/>
+              </if>
+              <else>
+               <text variable="volume" prefix="Vol. "/>
+              <text variable="issue" prefix="No. "/>
+              </else>
             </group>
             <text variable="page" prefix="С. "/>
           </group>
