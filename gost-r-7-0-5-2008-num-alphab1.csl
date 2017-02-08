@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
   <info>
-    <title>Russian GOST R 7.0.5-2008 numeric citations with aplhabetic sorting</title>
+    <title>Russian GOST R 7.0.5-2008 numeric citations with aplhabetic sorting1</title>
     <id>http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab</id>
     <link href="http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab" rel="self"/>
     <link href="https://dl.dropboxusercontent.com/u/95616327/Permanent_files/GOST-for-Zotero-Documentation.zip" rel="documentation"/>
@@ -502,6 +502,7 @@
       <!-- <key variable="citation-number"/>-->
       
       <!-- Сортировка по полю "Language" (сначала русскоязычные источники, затем иностранные), потом по алфавиту (ФИО или название), потом по дате издания -->
+      <key type="webpage"/>
       <key macro="language-sort"/>
       <key macro="author-title"/>
       <key variable="issued"/>
