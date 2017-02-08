@@ -114,11 +114,21 @@
 </choose>
 </macro>
   
+    <macro name="author-title">
+    <names variable="author" suffix=". ">
+      <!-- Добавить запятую между фамилией и инициалами автора: sort-separator=",&#160;", иначе sort-separator="&#160;" -->
+      <!-- Сделать шрифт фамилий и инициалов авторов наклонным: font-style="italic", иначе font-style="normal" -->
+      <name et-al-min="2" et-al-use-first="1" suppress-min="4" initialize-with="." font-style="normal" name-as-sort-order="first" sort-separator="&#160;"/> 
+      <et-al term="and others"/>
+    </names>
+    <text variable="title"/>
+  </macro>
+  
   <bibliography et-al-min="4" et-al-use-first="1">
     <sort>
       <key macro="type-sorting"/>
       <key macro="language-sort"/>
-      <key macro="author"/>
+      <key macro="author-title"/>
       <key variable="issued"/>
     </sort>
     <layout suffix=".">
