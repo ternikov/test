@@ -156,7 +156,7 @@
               <text macro="editor"/>
             </group>
             <text macro="publisher"/>
-             <text prefix="С.&#160;" variable="page"/>
+             <text prefix="С. " variable="page"/>
           </group>
         </else-if>
         <else-if type="webpage">
