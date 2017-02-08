@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="ru-RU">
   <info>
-    <title>Russian GOST R 7.0.5-2008 (Russian)</title>
+    <title>ГОСТ 7.0.5-2008 (С законами)</title>
     <id>http://www.zotero.org/styles/gost-r-7-0-5-2008</id>
-    <link href="http://www.zotero.org/styles/gost-r-7-0-5-2008" rel="self"/>
+    <link href="https://raw.githubusercontent.com/ternikov/test/gh-pages/gost-r-7-0-5-2008-law.csl" rel="self"/>
     <link href="http://chetvericov.ru/stil-oformleniya-dlya-mendeley-i-zotero-csl-po-gost-r-705-2008/" rel="documentation"/>
     <link href="http://protect.gost.ru/document.aspx?control=7&amp;id=173511" rel="documentation"/>
     <author>
@@ -102,8 +102,21 @@
       <term name="accessed">дата обращения</term>
     </terms>
   </locale>
+  
+<macro name="type-sorting">
+<choose>
+<if type="legislation" match="any">
+<text value="1"/>
+</if>
+<else>
+<text value="2"/>
+</else>
+</choose>
+</macro>
+  
   <bibliography et-al-min="4" et-al-use-first="1">
     <sort>
+      <key macro="type-sorting"/>
       <key macro="language-sort"/>
       <key macro="author"/>
       <key variable="issued"/>
