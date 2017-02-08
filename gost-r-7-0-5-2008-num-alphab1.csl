@@ -490,6 +490,19 @@
     </choose>
   </macro>
 
+	
+<macro name="type-sorting">
+<choose>
+<if type="case statute" match="any">
+<text value="1"/>
+</if>
+<else>
+<text value="2"/>
+</else>
+</choose>
+</macro>
+	
+	
 <!--_______________________________________________________________________________
     _________ Непосредтсвенно БИБЛИОГРАФИЯ с сортировкой и локализацией ___________
     _______________________________________________________________________________ -->
@@ -502,7 +515,7 @@
       <!-- <key variable="citation-number"/>-->
       
       <!-- Сортировка по полю "Language" (сначала русскоязычные источники, затем иностранные), потом по алфавиту (ФИО или название), потом по дате издания -->
-      <key type="webpage"/>
+      <key macro="type-sorting"/>
       <key macro="language-sort"/>
       <key macro="author-title"/>
       <key variable="issued"/>
