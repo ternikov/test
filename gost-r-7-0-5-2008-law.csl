@@ -94,7 +94,6 @@
       <term name="et-al">et al.</term>
       <term name="editor" form="verb">Ed.</term>
       <term name="accessed">дата обращения</term>
-      <term name="page" form="short">pp.</term>
     </terms>
   </locale>
   <locale xml:lang="ru">
@@ -145,7 +144,12 @@
               <text macro="editor"/>
             </group>
             <text macro="publisher"/>
-            <text variable="number-of-pages" suffix=" с."/>
+            <if xml:lang="ru">
+            <text variable="number-of-pages" suffix="&#160;с."/>
+            </if>
+            <else>
+             <text variable="number-of-pages" suffix="&#160;p."/> 
+            </else>
           </group>
         </if>
         <else-if type="chapter paper-conference" match="any">
@@ -157,7 +161,12 @@
               <text macro="editor"/>
             </group>
             <text macro="publisher"/>
-            <text prefix="С. " variable="page"/>
+            <if xml:lang="ru">
+            <text prefix="С.&#160;" variable="page"/>
+              </if>
+            <else>
+              <text prefix="P.&#160;" variable="page"/>
+              </else>
           </group>
         </else-if>
         <else-if type="webpage">
@@ -170,10 +179,10 @@
             <group prefix="// " delimiter=". ">
               <text variable="container-title" form="short"/>
               <text macro="year-date"/>
-              <text variable="volume" prefix="Т. "/>
-              <text variable="issue" prefix="№ "/>
+              <text variable="volume" prefix="Т.&#160;"/>
+              <text variable="issue" prefix="№&#160;"/>
             </group>
-            <text variable="page" prefix="С. "/>
+            <text variable="page" prefix="С.&#160;"/>
           </group>
         </else-if>
         <else>
