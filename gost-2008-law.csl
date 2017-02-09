@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="ru-RU">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+	<!-- default-locale="ru-RU"> -->
   <info>
     <title>ГОСТ R 7.0.5-2008 (по разделам)</title>
     <id>http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab</id>
@@ -74,8 +75,8 @@
       <term name="note" form="short"></term>
       <term name="collection-editor" form="short">coll.</term>
 	<term name="accessed">дата обращения</term>
-	    <term name="issue" prefix="№&#160;"></term>
-        <term name="editortranslator" form="short">
+	    <term name="issue" prefix="No.&#160;"></term>
+	<term name="editortranslator" form="short">
         <single>ed. &amp; trans.</single>
         <multiple>eds. &amp; trans.</multiple>
       </term>   
@@ -94,7 +95,7 @@
       <term name="collection-editor" form="short">сост.</term>
       <term name="collection-number" form="short">вып.</term>
 	 <term name="accessed">дата обращения</term>
-	    <term name="issue" prefix="No.&#160;"></term>
+	    <term name="issue" prefix="№&#160;"></term>
       <term name="translator" form="short">
         <single>пер.</single>
         <multiple>пер.</multiple>
