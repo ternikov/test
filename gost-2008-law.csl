@@ -74,7 +74,8 @@
       <term name="note" form="short"></term>
       <term name="collection-editor" form="short">coll.</term>
 	<term name="accessed">дата обращения</term>
-      <term name="editortranslator" form="short">
+	    <term name="issue" prefix="№&#160;"></term>
+        <term name="editortranslator" form="short">
         <single>ed. &amp; trans.</single>
         <multiple>eds. &amp; trans.</multiple>
       </term>   
@@ -93,6 +94,7 @@
       <term name="collection-editor" form="short">сост.</term>
       <term name="collection-number" form="short">вып.</term>
 	 <term name="accessed">дата обращения</term>
+	    <term name="issue" prefix="No.&#160;"></term>
       <term name="translator" form="short">
         <single>пер.</single>
         <multiple>пер.</multiple>
@@ -323,14 +325,15 @@
 
 	
 <macro name="volcheck">
-		<choose>
+	<text variable="issue" text-case="capitalize-first"/>
+<!--		<choose>
               <if variable="language">  
-                            <text variable="issue" prefix="№&#160;"/>
+		             <text variable="issue" prefix="№&#160;"/>
               </if>
               <else>
                             <text variable="issue" prefix="No.&#160;"/>
               </else>
-                </choose>
+                </choose>  -->
 </macro>
 	
 <macro name="access">
