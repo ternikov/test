@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="ru-RU">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
   <info>
     <title>ГОСТ R 7.0.5-2008 (по разделам)</title>
     <id>http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab</id>
@@ -320,7 +320,18 @@
       </choose>      
 	</layout>
   </citation>
+
 	
+<macro name="volcheck">
+		<choose>
+              <if variable="language">  
+                            <text variable="issue" prefix="№&#160;"/>
+              </if>
+              <else>
+                            <text variable="issue" prefix="No.&#160;"/>
+              </else>
+                </choose>
+</macro>
 	
 <macro name="access">
     <choose>
@@ -443,7 +454,8 @@
           <text macro="year-date"/>          
           <text macro="volume"/>          
           <text variable="title-short"/>
-      <!--    <text variable="issue" prefix="№&#160;"/>   -->
+		<text macro="volcheck"/>
+      <!--    <text variable="issue" prefix="№&#160;"/>   
 		<choose>
               <if variable="language">  
                             <text variable="issue" prefix="№&#160;"/>
@@ -451,7 +463,7 @@
               <else>
                             <text variable="issue" prefix="No.&#160;"/>
               </else>
-                </choose>
+                </choose> -->
           <text macro="page"/>
         </group>
       </else-if>
