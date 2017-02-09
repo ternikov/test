@@ -560,8 +560,8 @@
       <!-- <key variable="citation-number"/>-->
       
       <!-- Сортировка по полю "Language" (сначала русскоязычные источники, затем иностранные), потом по алфавиту (ФИО или название), потом по дате издания -->
-      <key macro="type-sorting"/>
-   <!--  <key macro="language-sort"/>  -->
+   <!--   <key macro="type-sorting"/>   -->
+     <key macro="language-sort"/>  
       <key macro="author-title"/>
       <key variable="issued"/>
 
