@@ -399,7 +399,7 @@
           <group delimiter=" // ">
             <group delimiter=" / ">
               <text macro="author-title"/>
-              <text macro="second-position-authors-only"/>
+    <!--          <text macro="second-position-authors-only"/> -->
             </group>
             <group delimiter=" / ">
               <group delimiter=" : ">
