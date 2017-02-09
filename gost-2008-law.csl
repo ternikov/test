@@ -458,8 +458,9 @@
           <text macro="year-date"/>          
           <text macro="volume"/>          
           <text variable="title-short"/>
-		<text macro="volcheck"/>
-      <!--    <text variable="issue" prefix="№&#160;"/>   
+		<label variable="issue" form="short" text-case="capitalize-first"/>
+      <!--    <text macro="volcheck"/>
+<text variable="issue" prefix="№&#160;"/>   
 		<choose>
               <if variable="language">  
                             <text variable="issue" prefix="№&#160;"/>
