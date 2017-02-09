@@ -73,6 +73,7 @@
       <term name="note" form="long"></term>
       <term name="note" form="short"></term>
       <term name="collection-editor" form="short">coll.</term>
+	<term name="accessed">дата обращения</term>
       <term name="editortranslator" form="short">
         <single>ed. &amp; trans.</single>
         <multiple>eds. &amp; trans.</multiple>
@@ -91,6 +92,7 @@
       <term name="note" form="short"></term>
       <term name="collection-editor" form="short">сост.</term>
       <term name="collection-number" form="short">вып.</term>
+	 <term name="accessed">дата обращения</term>
       <term name="translator" form="short">
         <single>пер.</single>
         <multiple>пер.</multiple>
@@ -178,7 +180,7 @@
     <names variable="author" suffix=". ">
       <!-- Добавить запятую между фамилией и инициалами автора: sort-separator=",&#160;", иначе sort-separator="&#160;" -->
       <!-- Сделать шрифт фамилий и инициалов авторов наклонным: font-style="italic", иначе font-style="normal" -->
-      <name et-al-min="2" et-al-use-first="1" suppress-min="4" initialize-with="." font-style="normal" name-as-sort-order="first" sort-separator="&#160;"/> 
+      <name et-al-min="4" et-al-use-first="1" suppress-min="4" initialize-with="." font-style="normal" name-as-sort-order="all" sort-separator="&#160;"/> 
       <et-al term="and others"/>
     </names>
     <text variable="title"/>
@@ -316,6 +318,26 @@
       </choose>      
 	</layout>
   </citation>
+	
+	
+<macro name="access">
+    <choose>
+      <if variable="URL">
+      <!--  <text value="[Электронный ресурс]. "/> -->
+        <text variable="URL" prefix="Режим доступа:&#160;"/>
+      <!--  <text variable="URL" prefix="URL: "/> -->
+        <group prefix=" (" suffix=")">
+          <text term="accessed" suffix=":&#160;"/>
+          <date variable="accessed">
+            <date-part name="day" suffix="." form="numeric-leading-zeros"/>
+            <date-part name="month" suffix="." form="numeric-leading-zeros"/>
+            <date-part name="year"/>
+          </date>
+        </group>
+      </if>
+    </choose>
+  </macro>
+  
 
 <!--_______________________________________________________________________________
 
@@ -331,7 +353,7 @@
     Электронный ресурс локального доступа (CD-ROM, компьютерная программа и др.))__
     _______________________________________________________________________________ -->
       <if type="book">
-        <group delimiter=". – ">
+        <group delimiter=". ">
           <group delimiter=" / ">
             <group delimiter=". ">
               <group delimiter=" : ">
@@ -357,7 +379,7 @@
     _________________________ ДИССЕРТАЦИЯ или АВТОРЕФЕРАТ _________________________
     _______________________________________________________________________________ -->
       <else-if type="thesis" match="any">
-        <group delimiter=". – " prefix="">
+        <group delimiter=". " prefix="">
           <group delimiter=" / ">
             <group delimiter=" : ">
               <text macro="author-title"/>
@@ -373,7 +395,7 @@
     ___________ РАЗДЕЛ КНИГИ, СТАТЬЯ В СБОРНИКЕ, СТАТЬЯ В ЭНЦИКЛОПЕДИИ ____________
     _______________________________________________________________________________ -->
       <else-if type="chapter paper-conference entry-encyclopedia" match="any">
-        <group delimiter=". – ">
+        <group delimiter=". ">
           <group delimiter=" // ">
             <group delimiter=" / ">
               <text macro="author-title"/>
@@ -405,14 +427,14 @@
     _________________________ СТАТЬЯ В ПЕРИОДИКЕ, ЖУРНАЛЕ _________________________
     _______________________________________________________________________________ -->
       <else-if type="article-journal article-magazine" match="any">        
-        <group delimiter=". – ">
+        <group delimiter=". ">
           <group delimiter=" // ">
             <group delimiter=" / ">
               <group delimiter=" : ">
                 <text macro="author-title"/>
                 <text variable="collection-title"/>                
               </group>              
-              <text macro="second-position-authors-only"/>
+      <!--        <text macro="second-position-authors-only"/>  -->
             </group>
             <text variable="container-title"/>            
           </group>
@@ -435,7 +457,7 @@
     ______________________________ СТАТЬЯ В ГАЗЕТЕ ________________________________
     _______________________________________________________________________________ -->
       <else-if type="article-newspaper">        
-        <group delimiter=". – ">
+        <group delimiter=". ">
           <group delimiter=" // ">
             <group delimiter=" / ">
               <group delimiter=" : ">
@@ -455,7 +477,7 @@
     ___________ ЭЛЕКТРОННЫЙ РЕСУРС УДАЛЕННОГО ДОСТУПА (ВЕБ-СТРАНИЦА)_______________
     _______________________________________________________________________________ -->
       <else-if type="webpage">
-        <group delimiter=". – " prefix="">
+        <group delimiter=". " prefix="">
           <group delimiter=" / ">
             <group delimiter=" : ">
               <text macro="author-title" suffix=" [Электронный ресурс]"/>
@@ -466,14 +488,15 @@
               <text variable="note"/>
             </group>            
           </group>            
-          <text variable="URL" prefix="Режим доступа: "/>
+          <text prefix=" " macro="access"/>
+	<!--	<text variable="URL" prefix="Режим доступа: "/>   -->
         </group>
       </else-if>
 <!--_______________________________________________________________________________
     _____________________________ Другие типы источников __________________________
     _______________________________________________________________________________ -->
       <else>        
-        <group delimiter=". – ">
+        <group delimiter=". ">
           <group delimiter=" / ">
             <group delimiter=". ">
               <group delimiter=" : ">
