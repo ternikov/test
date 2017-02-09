@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="ru-RU">
   <info>
     <title>ГОСТ R 7.0.5-2008 (по разделам)</title>
     <id>http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab</id>
@@ -549,7 +549,7 @@
       
       <!-- Сортировка по полю "Language" (сначала русскоязычные источники, затем иностранные), потом по алфавиту (ФИО или название), потом по дате издания -->
       <key macro="type-sorting"/>
-     <key macro="language-sort"/> 
+   <!--  <key macro="language-sort"/>  -->
       <key macro="author-title"/>
       <key variable="issued"/>
 
