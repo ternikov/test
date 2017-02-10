@@ -561,21 +561,33 @@
 	
 <macro name="type-sorting">
 <choose>
-<if type="legislation" match="any">
+<if type="legislation bill" match="any">
 <text value="1"/>
 </if>
-<else-if variable="book chapter" match="any">
-			<text value="2"/>
-		</else-if>
-<else-if variable="article article-journal" match="any">
-			<text value="3"/>
-		</else-if>
-	<else-if variable="webpage" match="any">
-			<text value="4"/>
-		</else-if>
-	<else>
-<text value="5"/>
-</else>
+<else-if type="book bookSection chapter"  match="any">
+        <text value="2"/>
+      </else-if>
+<else-if type="article-journal"  match="any">
+        <text value="3"/>
+      </else-if>
+<else-if type="article-magazine"  match="any">
+        <text value="4"/>
+      </else-if>
+<else-if type="article-newspaper"  match="any">
+        <text value="5"/>
+      </else-if>
+<else-if type="thesis"  match="any">
+        <text value="6"/>
+      </else-if>
+<else-if type="webpage"  match="any">
+        <text value="7"/>
+      </else-if>
+<else-if type="report"  match="any">
+        <text value="8"/>
+      </else-if>
+<else>
+        <text value="9"/>
+      </else>
 </choose>
 </macro>
 	
