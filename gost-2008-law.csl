@@ -66,7 +66,7 @@
   <locale xml:lang="en">
     <terms>
       <term name="et-al"> et al.</term>
-      <term name="and others"></term>
+      <term name="and others"> et al.</term>
       <term name="page" form="short">p.</term>
       <term name="number-of-pages" form="short">p.</term>
       <term name="number-of-volumes" form="short">vols.</term>
@@ -85,7 +85,7 @@
   <locale xml:lang="ru">
     <terms>
       <term name="et-al"> и др.</term>
-      <term name="and others"></term>
+      <term name="and others"> и др.</term>
       <term name="page" form="short">с.</term>
       <term name="number-of-pages" form="short">с.</term>
       <term name="number-of-volumes" form="short">т.</term>
@@ -201,7 +201,7 @@
     <names variable="author" suffix=". ">
       <!-- Добавить запятую между фамилией и инициалами автора: sort-separator=",&#160;", иначе sort-separator="&#160;" -->
       <!-- Сделать шрифт фамилий и инициалов авторов наклонным: font-style="italic", иначе font-style="normal" -->
-      <name et-al-min="3" et-al-use-first="1" suppress-min="5" initialize-with=".&#160;" font-style="normal" name-as-sort-order="all" sort-separator="&#160;"/> 
+      <name et-al-min="4" et-al-use-first="1" suppress-min="5" initialize-with=".&#160;" font-style="normal" name-as-sort-order="all" sort-separator="&#160;"/> 
       <text term="and others"/>
     </names>
     <text variable="title"/>
