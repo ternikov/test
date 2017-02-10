@@ -357,7 +357,7 @@
     <choose>
       <if variable="URL">
       <!--  <text value="[Электронный ресурс]. "/> -->
-        <text variable="URL" prefix="Режим доступа:&#160;"/>
+        <text variable="URL" prefix="Режим доступа: "/>
       <!--  <text variable="URL" prefix="URL: "/> -->
         <group prefix=" (" suffix=")">
           <text term="accessed" suffix=":&#160;"/>
@@ -387,9 +387,9 @@
     _______________________________________________________________________________ -->
       <if type="book">
         <group delimiter=". ">
-          <group delimiter=" / ">
+          <group delimiter="&#160;/ ">
             <group delimiter=". ">
-              <group delimiter=" : ">
+              <group delimiter="&#160;: ">
                 <text macro="author-title-medium"/>
                 <text variable="collection-title"/>
                 <text macro="number-of-volumes"/>
@@ -413,8 +413,8 @@
     _______________________________________________________________________________ -->
       <else-if type="thesis" match="any">
         <group delimiter=". " prefix="">
-          <group delimiter=" / ">
-            <group delimiter=" : ">
+          <group delimiter="&#160;/ ">
+            <group delimiter="&#160;: ">
               <text macro="author-title"/>
               <text variable="genre"/>
             </group>
@@ -429,13 +429,13 @@
     _______________________________________________________________________________ -->
       <else-if type="chapter paper-conference entry-encyclopedia" match="any">
         <group delimiter=". ">
-          <group delimiter=" // ">
-            <group delimiter=" / ">
+          <group delimiter="&#160;// ">
+            <group delimiter="&#160;/ ">
               <text macro="author-title"/>
     <!--          <text macro="second-position-authors-only"/> -->
             </group>
-            <group delimiter=" / ">
-              <group delimiter=" : ">
+            <group delimiter="&#160;/ ">
+              <group delimiter="&#160;: ">
                 <group delimiter=" ">
                   <text variable="container-title"/>
                   <text variable="event"/>                  
@@ -461,9 +461,9 @@
     _______________________________________________________________________________ -->
       <else-if type="article-journal article-magazine" match="any">        
         <group delimiter=". ">
-          <group delimiter=" // ">
-            <group delimiter=" / ">
-              <group delimiter=" : ">
+          <group delimiter="&#160;// ">
+            <group delimiter="&#160;/ ">
+              <group delimiter="&#160;: ">
                 <text macro="author-title"/>
                 <text variable="collection-title"/>                
               </group>              
@@ -495,8 +495,8 @@
     _______________________________________________________________________________ -->
       <else-if type="article-newspaper">        
         <group delimiter=". ">
-          <group delimiter=" // ">
-            <group delimiter=" / ">
+          <group delimiter="&#160;// ">
+            <group delimiter="&#160;/ ">
               <group delimiter=" : ">
                 <text macro="author-title"/>
                 <text variable="section"/>                
@@ -515,8 +515,8 @@
     _______________________________________________________________________________ -->
       <else-if type="webpage">
         <group delimiter=". " prefix="">
-          <group delimiter=" / ">
-            <group delimiter=" : ">
+          <group delimiter="&#160;/ ">
+            <group delimiter="&#160;: ">
               <text macro="author-title" suffix=" [Электронный ресурс]"/>
               <text variable="genre"/>
             </group>
@@ -534,9 +534,9 @@
     _______________________________________________________________________________ -->
       <else>        
         <group delimiter=". ">
-          <group delimiter=" / ">
+          <group delimiter="&#160;/ ">
             <group delimiter=". ">
-              <group delimiter=" : ">
+              <group delimiter="&#160;: ">
                 <text macro="author-title"/>
                 <text variable="collection-title"/>
                 <text macro="number-of-volumes"/>
