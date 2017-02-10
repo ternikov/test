@@ -342,9 +342,9 @@
 -->
 	<citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
     <layout delimiter="; " suffix=".">
-      <group delimiter=", ">
+<!--      <group delimiter=", ">
         <group delimiter=", ">
-      <!--    <text macro="author-title"/>
+          <text macro="author-title"/>
           <text macro="year-date"/> -->
       
 	<choose>
@@ -525,12 +525,12 @@
     </choose>      
 	      
 	      
-	</group>
+<!--	</group>
         <group>
           <label suffix=" " variable="locator" form="short"/>
           <text variable="locator"/>
         </group>
-      </group>
+      </group> -->
     </layout>
   </citation>
   
