@@ -202,7 +202,7 @@
       <!-- Добавить запятую между фамилией и инициалами автора: sort-separator=",&#160;", иначе sort-separator="&#160;" -->
       <!-- Сделать шрифт фамилий и инициалов авторов наклонным: font-style="italic", иначе font-style="normal" -->
       <name et-al-min="4" et-al-use-first="3" suppress-min="5" initialize-with=".&#160;" font-style="normal" name-as-sort-order="all" sort-separator="&#160;"/> 
-      <et-al term="and others"/>
+      <et-al term="et-al"/>
     </names>
     <text variable="title"/>
   </macro>
