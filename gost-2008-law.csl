@@ -323,7 +323,7 @@
 
     _______________________________________________________________________________ -->
 
-<!-- Нумерованные ссылки вида [1] или [1, с. 55]. -->
+<!-- Нумерованные ссылки вида [1] или [1, с. 55]. 
 
   <citation et-al-min="4" et-al-use-first="1" collapse="citation-number">
     <sort>
@@ -339,7 +339,23 @@
       </choose>      
 	</layout>
   </citation>
-
+-->
+	<citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
+    <layout delimiter="; " suffix=".">
+      <group delimiter=", ">
+        <group delimiter=", ">
+          <text macro="author-title"/>
+          <text macro="year-date"/>
+        </group>
+        <group>
+          <label suffix=" " variable="locator" form="short"/>
+          <text variable="locator"/>
+        </group>
+      </group>
+    </layout>
+  </citation>
+  
+	
 	
 <macro name="volcheck">
 	<text variable="issue" text-case="capitalize-first"/>
