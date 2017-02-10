@@ -95,7 +95,7 @@
       <term name="collection-editor" form="short">сост.</term>
       <term name="collection-number" form="short">вып.</term>
 	 <term name="accessed">дата обращения</term>
-	    <term name="issues">№&#160;</term>
+	    <term name="issue">№&#160;</term>
       <term name="translator" form="short">
         <single>пер.</single>
         <multiple>пер.</multiple>
