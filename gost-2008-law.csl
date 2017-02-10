@@ -4,16 +4,15 @@
   <info>
     <title>ГОСТ R 7.0.5-2008 (по разделам)</title>
     <id>http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab</id>
-    <link href="http://www.zotero.org/styles/gost-r-7-0-5-2008-num-alphab" rel="self"/>
-    <link href="https://dl.dropboxusercontent.com/u/95616327/Permanent_files/GOST-for-Zotero-Documentation.zip" rel="documentation"/>
+    <link href="https://raw.githubusercontent.com/ternikov/test/gh-pages/gost-2008-law.csl" rel="self"/>
     <author>
-      <name>Roman Raspopov</name>
-      <email>romanraspopov@gmail.com</email>
-      <uri>http://vk.com/romanraspopov</uri>
+      <name>Based on Roman Raspopov, Andrey Chetverikov</name>
+      <email>romanraspopov@gmail.com  andrey@chetvericov.ru</email>
+      <uri>http://vk.com/romanraspopov http://chetvericov.ru</uri>
     </author>    
     <category citation-format="numeric"/>
     <category field="generic-base"/>
-    <updated>2013-07-29T12:00:00+00:00</updated>
+    <updated>2017-02-10T12:00:00+00:00</updated>
     <summary>
       Russian GOST-2008 style.
         
@@ -75,7 +74,7 @@
       <term name="note" form="short"></term>
       <term name="collection-editor" form="short">coll.</term>
 	<term name="accessed">дата обращения</term>
-	    <term name="issue" form="short">No.&#160;</term>
+	    <term name="issue" form="short">No.</term>
 	<term name="editortranslator" form="short">
         <single>ed. &amp; trans.</single>
         <multiple>eds. &amp; trans.</multiple>
@@ -95,7 +94,7 @@
       <term name="collection-editor" form="short">сост.</term>
       <term name="collection-number" form="short">вып.</term>
 	 <term name="accessed">дата обращения</term>
-	    <term name="issue" form="short">№&#160;</term>
+	    <term name="issue" form="short">№</term>
       <term name="translator" form="short">
         <single>пер.</single>
         <multiple>пер.</multiple>
@@ -202,7 +201,7 @@
     <names variable="author" suffix=". ">
       <!-- Добавить запятую между фамилией и инициалами автора: sort-separator=",&#160;", иначе sort-separator="&#160;" -->
       <!-- Сделать шрифт фамилий и инициалов авторов наклонным: font-style="italic", иначе font-style="normal" -->
-      <name et-al-min="4" et-al-use-first="1" suppress-min="4" initialize-with="." font-style="normal" name-as-sort-order="all" sort-separator="&#160;"/> 
+      <name et-al-min="4" et-al-use-first="1" suppress-min="4" initialize-with=".&#160;" font-style="normal" name-as-sort-order="all" sort-separator="&#160;"/> 
       <et-al term="and others"/>
     </names>
     <text variable="title"/>
