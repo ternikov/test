@@ -65,8 +65,8 @@
 
   <locale xml:lang="en">
     <terms>
-      <term name="et-al"> et al.</term>
-      <term name="and others"> et al.</term>
+      <term name="et-al"> et&#160;al.</term>
+      <term name="and others"> et&#160;al.</term>
       <term name="page" form="short">p.</term>
       <term name="number-of-pages" form="short">p.</term>
       <term name="number-of-volumes" form="short">vols.</term>
@@ -84,8 +84,8 @@
 
   <locale xml:lang="ru">
     <terms>
-      <term name="et-al"> и др.</term>
-      <term name="and others"> и др.</term>
+      <term name="et-al"> и&#160;др.</term>
+      <term name="and others"> и&#160;др.</term>
       <term name="page" form="short">с.</term>
       <term name="number-of-pages" form="short">с.</term>
       <term name="number-of-volumes" form="short">т.</term>
@@ -221,21 +221,21 @@
   <macro name="second-position-creators">
     <names variable="author collection-editor editor translator" delimiter="; ">
       <label form="short" prefix=" " suffix=". " text-case="lowercase" strip-periods="true"/>
-      <name et-al-min="4" et-al-use-first="1" delimiter=", " initialize-with="."/>      
+      <name et-al-min="4" et-al-use-first="1" delimiter=", " initialize-with=".&#160;"/>      
     </names>
   </macro>
 
   <macro name="second-position-authors-only">
     <names variable="author">
       <label form="short" prefix=" " suffix=". " text-case="lowercase" strip-periods="true"/>
-      <name et-al-min="4" et-al-use-first="1" delimiter=", " initialize-with="."/>      
+      <name et-al-min="4" et-al-use-first="1" delimiter=", " initialize-with=".&#160;"/>      
     </names>
   </macro>
 
   <macro name="second-position-creators-no-authors">
     <names variable="collection-editor editor translator" delimiter="; ">
       <label form="short" prefix=" " suffix=". " text-case="lowercase" strip-periods="true"/>
-      <name et-al-min="4" et-al-use-first="1" delimiter=", " initialize-with="."/>      
+      <name et-al-min="4" et-al-use-first="1" delimiter=", " initialize-with=".&#160;"/>      
     </names>
   </macro>
 
