@@ -66,7 +66,7 @@
   <locale xml:lang="en">
     <terms>
       <term name="et-al"> et al.</term>
-      <term name="and others"></term>
+      <term name="and others"> et al.</term>
       <term name="page" form="short">p.</term>
       <term name="number-of-pages" form="short">p.</term>
       <term name="number-of-volumes" form="short">vols.</term>
@@ -85,7 +85,7 @@
   <locale xml:lang="ru">
     <terms>
       <term name="et-al"> и др.</term>
-      <term name="and others"></term>
+      <term name="and others"> и др.</term>
       <term name="page" form="short">с.</term>
       <term name="number-of-pages" form="short">с.</term>
       <term name="number-of-volumes" form="short">т.</term>
