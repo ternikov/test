@@ -589,7 +589,7 @@
 
     </sort>
 
-    <layout locale="en" suffix=".">
+    <layout locale="default" suffix=".">
       <text macro="bibliography"/>
     </layout>
 
