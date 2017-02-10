@@ -564,6 +564,7 @@
 <if type="legislation bill" match="any">
 <text value="1"/>
 </if>
+<!--
 <else-if type="book bookSection chapter"  match="any">
         <text value="2"/>
       </else-if>
@@ -585,8 +586,9 @@
 <else-if type="report"  match="any">
         <text value="8"/>
       </else-if>
+-->
 <else>
-        <text value="9"/>
+        <text value="2"/>
       </else>
 </choose>
 </macro>
@@ -605,7 +607,7 @@
       
       <!-- Сортировка по полю "Language" (сначала русскоязычные источники, затем иностранные), потом по алфавиту (ФИО или название), потом по дате издания -->
       <key macro="type-sorting"/>  
-  <!--   <key macro="language-sort"/>  -->
+    <key macro="language-sort"/> 
       <key macro="author-title"/>
       <key variable="issued"/>
 
