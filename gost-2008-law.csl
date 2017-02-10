@@ -564,8 +564,17 @@
 <if type="legislation" match="any">
 <text value="1"/>
 </if>
-<else>
-<text value="2"/>
+<else-if variable="book chapter" match="any">
+			<text value="2"/>
+		</else-if>
+<else-if variable="article article-journal" match="any">
+			<text value="3"/>
+		</else-if>
+	<else-if variable="webpage" match="any">
+			<text value="4"/>
+		</else-if>
+	<else>
+<text value="5"/>
 </else>
 </choose>
 </macro>
