@@ -398,10 +398,10 @@
               <text macro="volume"/>
               <text variable="title-short"/>
             </group>  
-            <group delimiter=" ">
+       <!--     <group delimiter=" ">
               <text macro="second-position-creators"/>
               <text variable="note"/>              
-            </group>
+            </group> -->
           </group>            
           <text macro="publisher"/>
           <text macro="collection-number"/>
@@ -626,10 +626,10 @@
               <text macro="volume"/>
               <text variable="title-short"/>
             </group>  
-            <group delimiter=" ">
+          <!--  <group delimiter=" ">
               <text macro="second-position-creators"/>
               <text variable="note"/>              
-            </group>
+            </group>  -->
           </group>            
           <text macro="publisher"/>
           <text macro="collection-number"/>
