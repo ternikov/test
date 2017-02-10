@@ -139,6 +139,17 @@
       </else>
     </choose>
   </macro>
+	
+<macro name="issues">
+    <choose>
+      <if variable="language">        
+        <text variable="issue" prefix="№&#160;"/>
+       </if>
+      <else>
+        <text variable="issue" prefix="No.&#160;"/>
+      </else>
+    </choose>
+  </macro>
 
   <macro name="language-sort"> <!-- Макрос сортировки по полю "Language" (сначала русскоязычные источники, затем иностранные) -->
     <choose>
@@ -458,8 +469,9 @@
           <text macro="year-date"/>          
           <text macro="volume"/>          
           <text variable="title-short"/>
-		<label variable="issues" text-case="capitalize-first"/>
-		<!--    <label variable="issue" form="short" text-case="capitalize-first"/>
+		<text macro="issues"/>          
+	<!--    <label variable="issues" text-case="capitalize-first"/>
+<label variable="issue" form="short" text-case="capitalize-first"/>
 <text macro="volcheck"/>
 <text variable="issue" prefix="№&#160;"/>   
 		<choose>
