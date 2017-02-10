@@ -76,8 +76,8 @@
 	<term name="accessed">дата обращения</term>
 	    <term name="issue" form="short">No.</term>
 	<term name="editortranslator" form="short">
-        <single>ed. &amp; trans.</single>
-        <multiple>eds. &amp; trans.</multiple>
+        <single>ed.&#160;&amp; trans.</single>
+        <multiple>eds.&#160;&amp; trans.</multiple>
       </term>   
     </terms>
   </locale>
