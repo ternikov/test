@@ -143,10 +143,10 @@
 <macro name="issues">
     <choose>
       <if variable="language">        
-        <text variable="issue" prefix="№&#160;"/>
+        <text variable="issue" prefix="No.&#160;"/>
        </if>
       <else>
-        <text variable="issue" prefix="No.&#160;"/>
+        <text variable="issue" prefix="№&#160;"/>
       </else>
     </choose>
   </macro>
