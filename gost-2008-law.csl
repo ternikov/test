@@ -294,6 +294,21 @@
     </choose>
   </macro>
  
+	
+
+  <macro name="pages-or-volumes1">
+    <choose>
+      <if variable="volume">
+        <text macro="number-of-pages"/>
+      </if>
+      <else-if variable="number-of-volumes">
+        <text macro="volumes"/>
+      </else-if>
+      <else>
+       </else>
+    </choose>
+  </macro>
+	
   <macro name="volume">
     <choose>
       <if variable="volume">
@@ -316,7 +331,26 @@
       </if>      
     </choose>
   </macro>
-  
+
+	<macro name="access1">
+    <choose>
+      <if variable="URL">
+      <!--  <text value="[Электронный ресурс]. "/> -->
+        <text variable="URL" prefix="Режим доступа: "/>
+      <!--  <text variable="URL" prefix="URL: "/> -->
+     <!--   <group prefix=" (" suffix=")">
+          <text term="accessed" suffix=":&#160;"/>
+          <date variable="accessed">
+            <date-part name="day" suffix="." form="numeric-leading-zeros"/>
+            <date-part name="month" suffix="." form="numeric-leading-zeros"/>
+            <date-part name="year"/>
+          </date>
+        </group> -->
+      </if>
+    </choose>
+  </macro>
+
+	
 <!--_______________________________________________________________________________
 
     ______________________________ ССЫЛКИ В ТЕКСТЕ ________________________________
@@ -371,7 +405,7 @@
           </group>            
           <text macro="publisher"/>
           <text macro="collection-number"/>
-          <text macro="pages-or-volumes"/>
+          <text macro="pages-or-volumes1"/>
           <text variable="medium"/>
         </group>
       </if>
@@ -388,7 +422,7 @@
             <text macro="second-position-authors-only"/>
           </group>            
           <text macro="publisher"/>            
-          <text macro="number-of-pages"/>
+        <!--  <text macro="number-of-pages"/> -->
         </group>
       </else-if>
 <!--_______________________________________________________________________________
@@ -420,7 +454,7 @@
           <text macro="volume"/>
           <text macro="collection-number"/>
           <text variable="title-short"/>
-          <text macro="page"/>
+        <!--  <text macro="page"/> -->
         </group>
       </else-if>
 <!--_______________________________________________________________________________
@@ -454,7 +488,7 @@
                             <text variable="issue" prefix="No.&#160;"/>
               </else>
                 </choose> -->
-          <text macro="page"/>
+         <!-- <text macro="page"/> -->
         </group>
       </else-if>
 <!--_______________________________________________________________________________
@@ -474,7 +508,7 @@
           </group>
           <text macro="year-date"/>                  
           <text macro="day-month"/>          
-          <text macro="page"/>
+         <!-- <text macro="page"/> -->
         </group>
       </else-if>
 <!--_______________________________________________________________________________
@@ -492,7 +526,7 @@
               <text variable="note"/>
             </group>            
           </group>            
-          <text prefix=" " macro="access"/>
+          <text prefix=" " macro="access1"/>
 	<!--	<text variable="URL" prefix="Режим доступа: "/>   -->
         </group>
       </else-if>
@@ -518,7 +552,7 @@
           </group>            
           <text macro="publisher"/>
           <text macro="collection-number"/>
-          <text macro="pages-or-volumes"/>
+          <text macro="pages-or-volumes1"/>
         </group>
       </else>
 
