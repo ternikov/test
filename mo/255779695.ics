@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 METHOD:PUBLISH
 VERSION:2.0
-X-WR-CALNAME:Test Calendar
+X-WR-CALNAME:Test-Calendar
 PRODID:-//Apple Inc.//Mac OS X 10.14//EN
 X-WR-TIMEZONE:Europe/Moscow
 CALSCALE:GREGORIAN
@@ -15,15 +15,12 @@ TZOFFSETTO:+023017
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-TRANSP:OPAQUE
 DTEND;TZID=Europe/Moscow:20210421T095600
 UID:85398571
 DTSTAMP:20210421T165000Z
 LOCATION:Пушкинский
 DESCRIPTION:Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению Оставление иска (заявления, жалобы) без движения
 URL;VALUE=URI:https://psh--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=489725600&case_uid=3f39ea6b-3194-4244-b746-27cd93104cf0&delo_id=1540005
-SEQUENCE:0
-ORGANIZER:ME
 SUMMARY:Абв
 LAST-MODIFIED:20210421T165000Z
 DTSTART;TZID=Europe/Moscow:20210421T095600
