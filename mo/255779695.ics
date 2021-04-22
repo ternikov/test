@@ -197,8 +197,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Пушкинский ра
  кин, ул. Пушкинская, д. 2, корп. 2.";X-APPLE-RADIUS=16
  6.774588263444;X-APPLE-REFERENCEFRAME=1;X-TITLE="Пушкинский ра
  йонный суд 196607, г. Санкт-Петербург, г. Пуш
- кин, ул. Пушкинская, д. 2, корп. 2.":geo:59.7238998413
- 08594,30.400100708007812
+ кин, ул. Пушкинская, д. 2, корп. 2.":geo:59.723899,30.400100
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:ENABLED
 BEGIN:VALARM
 ACTION:DISPLAY
