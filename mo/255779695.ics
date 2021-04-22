@@ -188,7 +188,7 @@ CREATED:20210422T111800
 DESCRIPTION:Передача материалов судье 
 LAST-MODIFIED:20210422T111800
 LOCATION:Пушкинский
-GEO:37.386013;-122.082932
+GEO:37.386013,-122.082932
 TRANSP:OPAQUE
 URL;VALUE=URI:https://psh--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=490546740&case_uid=1a56502d-8a64-4e9d-8fd3-d248dd81
