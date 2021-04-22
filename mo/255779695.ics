@@ -193,9 +193,7 @@ TRANSP:OPAQUE
 URL;VALUE=URI:https://psh--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=490546740&case_uid=1a56502d-8a64-4e9d-8fd3-d248dd81
  06f3&delo_id=1540005
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Пушкинский ра
- йонный суд 196607, г. Санкт-Петербург, г. Пуш
- кин, ул. Пушкинская, д. 2, корп. 2.";X-APPLE-RADIUS=16
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Пушкинский;X-APPLE-RADIUS=16
  6.774588263444;X-APPLE-REFERENCEFRAME=1;X-TITLE="Пушкинский ра
  йонный суд 196607\, г. Санкт-Петербург\, г. Пуш
  кин\, ул. Пушкинская\, д. 2\, корп. 2.":geo:59.723899,30.400100
