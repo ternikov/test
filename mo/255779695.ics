@@ -130,10 +130,8 @@ URL;VALUE=URI:https://vbr--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=457120649&case_uid=d34c4437-efb6-4e3d-b07a-153ad273
  82ab&delo_id=1502001
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="улица Сантьяго-де-Куба, 
- 3, Санкт-Петербург, Россия, 194291";X-APPLE-RADIUS=166.774588263444;X-APPLE-REFERENCEFRAME=1;X-TITLE="
- Выборгский районный суд г.Санкт-Петербу
- рга 194291, Санкт-Петербург, ул.Сантьяго-де-
- Куба, дом 3, корп. 3.":geo:60.034888,30.355632
+ 3, Санкт-Петербург, Россия, 194291";X-APPLE-RADIUS=166.774588263444;X-APPLE-REFERENCEFRAME=1;X-TITLE="Выборгский районный суд города Санкт-Петер
+ бурга":geo:60.034888\,30.355632
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:ENABLED
 BEGIN:VALARM
 ACTION:DISPLAY
