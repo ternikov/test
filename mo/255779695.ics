@@ -182,8 +182,7 @@ SEQUENCE:0
 CREATED:20210423T080000
 DESCRIPTION:Передача материалов судье 
 LAST-MODIFIED:20210423T080000
-LOCATION:Пушкинский\nг. Пуш
- кин\, ул. Пушкинская\, д. 2\, корп. 2.\, 196607
+LOCATION:Пушкинский
 TRANSP:OPAQUE
 URL;VALUE=URI:https://psh--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=490546740&case_uid=1a56502d-8a64-4e9d-8fd3-d248dd81
