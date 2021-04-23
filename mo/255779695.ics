@@ -18,13 +18,14 @@ BEGIN:VEVENT
 SUMMARY:Дело
 DTSTART;TZID=Europe/Moscow:20201118T122200
 DTEND;TZID=Europe/Moscow:20201118T122200
-DTSTAMP:20210423T175600
+DTSTAMP:20210423T175700
 UID:8783958
 SEQUENCE:0
-CREATED:20210423T175600
+CREATED:20210423T175700
 DESCRIPTION:Истребованы материалы 
-LAST-MODIFIED:20210423T175600
-LOCATION:Выборгский
+LAST-MODIFIED:20210423T175700
+LOCATION:Выборгский\n194291\, Санкт-Петербург\, у
+ л.Сантьяго-де-Куба\, дом 3\, корп. 3.
 TRANSP:OPAQUE
 URL;VALUE=URI:https://vbr--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=457120649&case_uid=d34c4437-efb6-4e3d-b07a-153ad273
@@ -46,14 +47,15 @@ BEGIN:VEVENT
 SUMMARY:Дело
 DTSTART;TZID=Europe/Moscow:20201201T131900
 DTEND;TZID=Europe/Moscow:20201201T131900
-DTSTAMP:20210423T175600
+DTSTAMP:20210423T175700
 UID:77868553
 SEQUENCE:0
-CREATED:20210423T175600
+CREATED:20210423T175700
 DESCRIPTION:Поступили истребованные материал
  ы 
-LAST-MODIFIED:20210423T175600
-LOCATION:Выборгский
+LAST-MODIFIED:20210423T175700
+LOCATION:Выборгский\n194291\, Санкт-Петербург\, у
+ л.Сантьяго-де-Куба\, дом 3\, корп. 3.
 TRANSP:OPAQUE
 URL;VALUE=URI:https://vbr--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=457120649&case_uid=d34c4437-efb6-4e3d-b07a-153ad273
@@ -75,14 +77,15 @@ BEGIN:VEVENT
 SUMMARY:Дело
 DTSTART;TZID=Europe/Moscow:20210204T153000
 DTEND;TZID=Europe/Moscow:20210204T153000
-DTSTAMP:20210423T175600
+DTSTAMP:20210423T175700
 UID:10289189
 SEQUENCE:0
-CREATED:20210423T175600
+CREATED:20210423T175700
 DESCRIPTION:Судебное заседание №342 Заседание 
  отложено Прочие основания
-LAST-MODIFIED:20210423T175600
-LOCATION:Выборгский
+LAST-MODIFIED:20210423T175700
+LOCATION:Выборгский\n194291\, Санкт-Петербург\, у
+ л.Сантьяго-де-Куба\, дом 3\, корп. 3.
 TRANSP:OPAQUE
 URL;VALUE=URI:https://vbr--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=457120649&case_uid=d34c4437-efb6-4e3d-b07a-153ad273
@@ -104,14 +107,15 @@ BEGIN:VEVENT
 SUMMARY:Дело
 DTSTART;TZID=Europe/Moscow:20210316T151500
 DTEND;TZID=Europe/Moscow:20210316T151500
-DTSTAMP:20210423T175600
+DTSTAMP:20210423T175700
 UID:48312724
 SEQUENCE:0
-CREATED:20210423T175600
+CREATED:20210423T175700
 DESCRIPTION:Судебное заседание №342 Оставлено 
  без изменения
-LAST-MODIFIED:20210423T175600
-LOCATION:Выборгский
+LAST-MODIFIED:20210423T175700
+LOCATION:Выборгский\n194291\, Санкт-Петербург\, у
+ л.Сантьяго-де-Куба\, дом 3\, корп. 3.
 TRANSP:OPAQUE
 URL;VALUE=URI:https://vbr--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=457120649&case_uid=d34c4437-efb6-4e3d-b07a-153ad273
@@ -133,14 +137,15 @@ BEGIN:VEVENT
 SUMMARY:Fff
 DTSTART;TZID=Europe/Moscow:20210420T143800
 DTEND;TZID=Europe/Moscow:20210420T143800
-DTSTAMP:20210423T175600
+DTSTAMP:20210423T175700
 UID:29944555
 SEQUENCE:0
-CREATED:20210423T175600
+CREATED:20210423T175700
 DESCRIPTION:Регистрация иска (заявления\, жало
  бы) в суде 
-LAST-MODIFIED:20210423T175600
-LOCATION:Пушкинский
+LAST-MODIFIED:20210423T175700
+LOCATION:Пушкинский\n196607\, г. Санкт-Петербург\
+ , г. Пушкин\, ул. Пушкинская\, д. 2\, корп. 2.
 TRANSP:OPAQUE
 URL;VALUE=URI:https://psh--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=490546740&case_uid=1a56502d-8a64-4e9d-8fd3-d248dd81
@@ -162,13 +167,14 @@ BEGIN:VEVENT
 SUMMARY:Fff
 DTSTART;TZID=Europe/Moscow:20210421T101100
 DTEND;TZID=Europe/Moscow:20210421T101100
-DTSTAMP:20210423T175600
+DTSTAMP:20210423T175700
 UID:69628741
 SEQUENCE:0
-CREATED:20210423T175600
+CREATED:20210423T175700
 DESCRIPTION:Передача материалов судье 
-LAST-MODIFIED:20210423T175600
-LOCATION:Пушкинский
+LAST-MODIFIED:20210423T175700
+LOCATION:Пушкинский\n196607\, г. Санкт-Петербург\
+ , г. Пушкин\, ул. Пушкинская\, д. 2\, корп. 2.
 TRANSP:OPAQUE
 URL;VALUE=URI:https://psh--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=490546740&case_uid=1a56502d-8a64-4e9d-8fd3-d248dd81
