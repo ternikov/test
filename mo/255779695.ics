@@ -114,7 +114,7 @@ CREATED:20210426T080100
 DESCRIPTION:Судебное заседание №342 Оставлено 
  без изменения\n\nНовая строка
 LAST-MODIFIED:20210426T080100
-LOCATION:Выборгский ДЕЛО № 12\-78/2021 (12\-754/2020\;)\n194291\, Санкт-Петербург\, у
+LOCATION:Выборгский ДЕЛО № 12-78/2021 (12-754/2020\;)\n194291\, Санкт-Петербург\, у
  л.Сантьяго-де-Куба\, дом 3\, корп. 3.
 TRANSP:OPAQUE
 URL;VALUE=URI:https://vbr--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
@@ -123,7 +123,7 @@ URL;VALUE=URI:https://vbr--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="194291, Санкт-Пет
  ербург, ул.Сантьяго-де-Куба, дом 3, корп. 3."
  ;X-APPLE-RADIUS=166.774588263444;X-APPLE-REFERENCEFRAME=1;X-TITLE=Выбо
- ргский ДЕЛО № 12\-78/2021 (12\-754/2020\;):geo:60.03486366894325\,30.355875253771924
+ ргский ДЕЛО № 12-78/2021 (12-754/2020\;):geo:60.03486366894325\,30.355875253771924
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:ENABLED
 BEGIN:VALARM
 ACTION:DISPLAY
