@@ -192,7 +192,7 @@ DESCRIPTION:Судебное заседание 476 Рассмотрени
 LAST-MODIFIED:20210426T204300
 LOCATION:Московский\n196084\, г. Санкт-Петербург\
  , пр. Московский\, 129
-ORGANIZER;CN="ДЕЛО № 2а-4468/2021 \~ М-530/2021":mailto:0
+ORGANIZER;CN="ДЕЛО \№ 2а-4468/2021 ~ М-530/2021":mailto:0
 TRANSP:OPAQUE
 URL;VALUE=URI:https://msk--spb.sudrf.ru/modules.php?name=sud_delo&srv_num=
  1&name_op=case&case_id=472186612&case_uid=8bf3c3ae-c6c9-447b-913b-cbb2b7a8
