@@ -113,6 +113,7 @@ SEQUENCE:0
 CREATED:20210426T080100
 CONTACT:Новая строкаа\, ABC Industries\, +1-919-555-1234
 ORGANIZER;CN=ДЕЛО № 12-78/2021 (12-754/2020\;):mailto:hello@example.com
+ATTENDEE;RSVP=TRUE;CN=ФИО Судьи:mailto:abc@xyz.com
 DESCRIPTION:Судебное заседание №342 Оставлено 
  без изменения
 LAST-MODIFIED:20210426T080100
